@@ -18,6 +18,7 @@ const EMAILJS_PUBLIC_KEY  = 'DyBdCWXIdgLyfG_7-'
 
 const links = [
   { label: '📧 evansmurangiri7@gmail.com', href: 'mailto:evansmurangiri7@gmail.com' },
+  { label: '💬 WhatsApp me directly',      href: 'https://wa.me/254793582095?text=Hi%20Evans!%20I%20found%20your%20portfolio%20and%20I%27d%20like%20to%20discuss%20a%20job%20opportunity.' },
   { label: '🐙 github.com/evansmurangiri',  href: 'https://github.com/evansmurangiri' },
   { label: '💼 LinkedIn — Evans Murangiri', href: 'https://www.linkedin.com/in/evans-murangiri-295762351/' },
   { label: '📄 Download CV',                href: '/Evans_Murangiri_CV.pdf', download: true },
@@ -115,7 +116,7 @@ export default function Contact() {
       {/* RIGHT — FORM */}
       <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
         <div style={{ fontFamily: 'var(--mono)', fontSize: 11, color: 'var(--accent)', letterSpacing: '0.12em', marginBottom: 8 }}>
-           SEND A MESSAGE
+          // SEND A MESSAGE
         </div>
 
         {['name', 'email', 'subject'].map(field => (
