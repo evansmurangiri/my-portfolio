@@ -12,9 +12,9 @@ import { useState } from 'react'
        - YOUR_PUBLIC_KEY   → from EmailJS dashboard > Account > Public Key
 */
 
-const EMAILJS_SERVICE_ID  = 'YOUR_SERVICE_ID'
-const EMAILJS_TEMPLATE_ID = 'YOUR_TEMPLATE_ID'
-const EMAILJS_PUBLIC_KEY  = 'YOUR_PUBLIC_KEY'
+const EMAILJS_SERVICE_ID  = 'service_gorizf4'
+const EMAILJS_TEMPLATE_ID = 'template_1x9r6fb'
+const EMAILJS_PUBLIC_KEY  = 'DyBdCWXIdgLyfG_7-'
 
 const links = [
   { label: '📧 evansmurangiri7@gmail.com', href: 'mailto:evansmurangiri7@gmail.com' },
@@ -115,7 +115,7 @@ export default function Contact() {
       {/* RIGHT — FORM */}
       <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
         <div style={{ fontFamily: 'var(--mono)', fontSize: 11, color: 'var(--accent)', letterSpacing: '0.12em', marginBottom: 8 }}>
-          // SEND A MESSAGE
+           SEND A MESSAGE
         </div>
 
         {['name', 'email', 'subject'].map(field => (
