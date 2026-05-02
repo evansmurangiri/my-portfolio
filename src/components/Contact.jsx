@@ -116,7 +116,7 @@ export default function Contact() {
       {/* RIGHT — FORM */}
       <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
         <div style={{ fontFamily: 'var(--mono)', fontSize: 11, color: 'var(--accent)', letterSpacing: '0.12em', marginBottom: 8 }}>
-          // SEND A MESSAGE
+           SEND A MESSAGE
         </div>
 
         {['name', 'email', 'subject'].map(field => (
